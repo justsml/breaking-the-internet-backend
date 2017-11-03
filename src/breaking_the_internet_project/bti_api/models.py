@@ -14,4 +14,4 @@ class Images(models.Model):
         self.image_url = url
         self.save()
 
-        # return self.image_url
+        return image
