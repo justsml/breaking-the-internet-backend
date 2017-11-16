@@ -18,4 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    AUTH_USER_MODEL = 'profiles_api.UserProfile'
 ]
